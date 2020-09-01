@@ -6,6 +6,7 @@ for(let i = 2; i < process.argv.length; i++)
     somme += process.argv[i].length;
 }
 
-console.log("test")
 
-console.log(somme)
+const somme2 = process.argv.slice(2).map((s) => s.length).reduce((a,b) => a + b, 0);
+
+console.log(somme2)
