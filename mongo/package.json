@@ -1,0 +1,20 @@
+{
+  "name": "express-rest-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend.js",
+  "dependencies": {
+    "@awaitjs/express": "^0.4.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.2",
+    "mongoose": "^5.3.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
